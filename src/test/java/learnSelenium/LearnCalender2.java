@@ -54,7 +54,7 @@ public class LearnCalender2 {
 		Thread.sleep(3000);
 
 		for (WebElement date : allvalidDates) {
-			if (date.getText().contains("30")) {
+			if (date.getText().contains("10")) {
 				date.click();
 				break;
 			}
